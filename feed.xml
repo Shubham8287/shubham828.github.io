@@ -12,27 +12,13 @@ layout: null
     {% endif %}
     <link>{{ '' | absolute_url }}</link>
     <atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
-<<<<<<< HEAD
-    {% for post in site.posts limit:50 %}
-=======
     {% assign excerpt_length = site.excerpt_length | default: 50 %}
     {% for post in site.posts limit:20 %}
->>>>>>> 685cf73c9d70c46675e3b1864ccd154d0adb9220
       <item>
         <title>{{ post.title | strip_html | xml_escape }}</title>
         <description>
-<<<<<<< HEAD
-          {% if post.subtitle %}{{ post.subtitle | xml_escape }} - {% endif %}
-          {{ post.content | xml_escape | truncatewords: 500 }}
-=======
-          {% if post.subtitle %}{{ post.subtitle | strip_html | xml_escape }} - {% endif %}
           {{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }}
->>>>>>> 685cf73c9d70c46675e3b1864ccd154d0adb9220
         </description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
-      </item>
     {% endfor %}
   </channel>
 </rss>
