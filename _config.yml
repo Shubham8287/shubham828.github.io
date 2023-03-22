@@ -20,6 +20,7 @@ author: Shubham
 ###############################################
 
 navbar-links:
+  Reading Shelf: "shelf"
   About Me: "aboutme"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
