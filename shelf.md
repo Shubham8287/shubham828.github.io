@@ -7,7 +7,7 @@ full-width: true
 
 
 
-<div class="container">
+<div class="container" style="margin-top: 2rem;">>
   <div class="row">
     <div class="col-sm-6" style="text-align: center;">
     <u>
@@ -19,7 +19,7 @@ full-width: true
         <li>List item 3</li>
       </ul>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6" style="text-align: center;">
     <h3><u> Reading List </u></h3>
       <ul style="list-style-position: inside;">
         <li>List item A</li>
