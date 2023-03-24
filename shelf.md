@@ -1,30 +1,30 @@
 ---
 layout: page
 title: Reading Shelf
-subtitle: Content I am read, reading or plan to read
+subtitle: Content I read, reading or plan to read
 full-width: true
 ---
 
 
 
-<div class="container" style="margin-top: 2rem;">>
+<div class="container" style="margin-top: 2rem;">
   <div class="row">
     <div class="col-sm-6" style="text-align: center;">
     <u>
     <h3> Read </h3>
     </u>
       <ul style="list-style-position: inside;">
-        <li>List item 1</li>
-        <li>List item 2</li>
-        <li>List item 3</li>
+        <li><a href="https://lamport.azurewebsites.net/pubs/paxos-simple.pdf">Paxos Made Simple</a></li>
+        <li><a href="https://luca.ntop.org/n2n.pdf">n2n: Layer 2 virtual network</a></li>
+        <li><a href="https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf">Zookeeper</a></li>
+        <li><a href="https://dataintensive.net/">Designing Data-Intensive Applications</a></li>
       </ul>
     </div>
     <div class="col-sm-6" style="text-align: center;">
     <h3><u> Reading List </u></h3>
       <ul style="list-style-position: inside;">
-        <li>List item A</li>
-        <li>List item B</li>
-        <li>List item C</li>
+        <li><a href="https://www.oreilly.com/library/view/deep-learning-from/9781492041405/">Deep Learning From Scratch</a></li>
+        <li><a href="https://drive.google.com/file/d/1luxcdZBCxo-ty9sgmEQ1rDs5AF4334-3/view">The Bloom Paradox: When not to Use a Bloom Filter</a></li>
       </ul>
     </div>
   </div>
