@@ -9,20 +9,20 @@ full-width: true
 
 <div class="container" style="margin-top: 2rem;">
   <div class="row">
-    <div class="col-sm-6" style="text-align: center;">
+    <div class="col-sm-6">
     <u>
-    <h3> Read </h3>
+    <h3 style="text-align: center;" > Read </h3>
     </u>
-      <ul style="list-style-position: inside;">
+      <ul style="list-style-position: inside;  margin: 2rem; padding-left: 8rem;">
         <li><a href="https://lamport.azurewebsites.net/pubs/paxos-simple.pdf">Paxos Made Simple</a></li>
         <li><a href="https://luca.ntop.org/n2n.pdf">n2n: Layer 2 virtual network</a></li>
         <li><a href="https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf">Zookeeper</a></li>
         <li><a href="https://dataintensive.net/">Designing Data-Intensive Applications</a></li>
       </ul>
     </div>
-    <div class="col-sm-6" style="text-align: center;">
-    <h3><u> Reading List </u></h3>
-      <ul style="list-style-position: inside;">
+    <div class="col-sm-6">
+    <h3 style="text-align: center;" ><u> Reading List </u></h3>
+      <ul style="list-style-position: inside;  margin: 2rem; padding-left: 8rem;">
         <li><a href="https://www.oreilly.com/library/view/deep-learning-from/9781492041405/">Deep Learning From Scratch</a></li>
         <li><a href="https://drive.google.com/file/d/1luxcdZBCxo-ty9sgmEQ1rDs5AF4334-3/view">The Bloom Paradox: When not to Use a Bloom Filter</a></li>
       </ul>
