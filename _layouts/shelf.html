@@ -9,6 +9,10 @@ layout: page
         <h2>{{ list.title }}</h2>
         <ul>
           {% for item in list.items %}
+            {% if item.year %}
+              <br>
+              <h6> {{ item.year }}</h6>
+              {% endif %}
             <li> <a href="{{ item.link }}"> {{ item.title }} </a></li>
           {% endfor %}
         </ul>
